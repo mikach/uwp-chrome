@@ -8,6 +8,8 @@ import { storage } from './storage';
 import { system } from './system';
 import { tts } from './tts';
 import { wallpaper } from './wallpaper';
+import { usb } from './usb';
+import { documentScan } from './documentScan';
 
 export {
 	browser,
@@ -18,5 +20,7 @@ export {
 	storage,
 	system,
 	tts,
-	wallpaper
+	wallpaper,
+    usb,
+    documentScan
 };
